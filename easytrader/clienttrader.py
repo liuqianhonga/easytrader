@@ -171,7 +171,7 @@ class ClientTrader(IClientTrader):
         self.refresh()
         for i, entrust in enumerate(self.cancel_entrusts):
             if entrust[self._config.CANCEL_ENTRUST_ENTRUST_FIELD] == entrust_no:
-                self._cancel_entrust_by_double_click(i)
+                self._cancel_entrust_by_double_click(i + 1)
                 return self._handle_pop_dialogs()
         return {"message": "委托单状态错误不能撤单, 该委托单可能已经成交或者已撤"}
 
