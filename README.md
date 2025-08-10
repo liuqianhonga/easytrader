@@ -3,36 +3,36 @@
 [![Package](https://img.shields.io/pypi/v/easytrader.svg)](https://pypi.python.org/pypi/easytrader)
 [![License](https://img.shields.io/github/license/shidenggui/easytrader.svg)](https://github.com/shidenggui/easytrader/blob/master/LICENSE)
 
-* è¿›è¡Œè‚¡ç¥¨é‡åŒ–äº¤æ˜“
-* é€šç”¨çš„åŒèŠ±é¡ºå®¢æˆ·ç«¯æ¨¡æ‹Ÿæ“ä½œ
-* æ”¯æŒåˆ¸å•†çš„ [miniqmt](https://easytrader.readthedocs.io/zh-cn/master/miniqmt/) å®˜æ–¹é‡åŒ–æ¥å£
-* æ”¯æŒé›ªçƒç»„åˆè°ƒä»“å’Œè·Ÿè¸ª
-* æ”¯æŒè¿œç¨‹æ“ä½œå®¢æˆ·ç«¯
-* æ”¯æŒè·Ÿè¸ª `joinquant`, `ricequant` çš„æ¨¡æ‹Ÿäº¤æ˜“
+* ½øĞĞ¹ÉÆ±Á¿»¯½»Ò×
+* Í¨ÓÃµÄÍ¬»¨Ë³¿Í»§¶ËÄ£Äâ²Ù×÷
+* Ö§³ÖÈ¯ÉÌµÄ [miniqmt](https://easytrader.readthedocs.io/zh-cn/master/miniqmt/) ¹Ù·½Á¿»¯½Ó¿Ú
+* Ö§³ÖÑ©Çò×éºÏµ÷²ÖºÍ¸ú×Ù
+* Ö§³ÖÔ¶³Ì²Ù×÷¿Í»§¶Ë
+* Ö§³Ö¸ú×Ù `joinquant`, `ricequant` µÄÄ£Äâ½»Ò×
 
 
-### å¾®ä¿¡ç¾¤ä»¥åŠå…¬ä¼—å·
+### Î¢ĞÅÈºÒÔ¼°¹«ÖÚºÅ
 
-æ¬¢è¿å¤§å®¶æ‰«ç å…³æ³¨å…¬ä¼—å·ã€Œé£Ÿç¯é¬¼ã€ï¼Œä¸€èµ·äº¤æµã€‚è¿›ç¾¤å¯é€šè¿‡èœå•åŠ æˆ‘å¥½å‹ï¼Œå¤‡æ³¨é‡åŒ–ã€‚
+»¶Ó­´ó¼ÒÉ¨Âë¹Ø×¢¹«ÖÚºÅ¡¸Ê³µÆ¹í¡¹£¬Ò»Æğ½»Á÷¡£½øÈº¿ÉÍ¨¹ı²Ëµ¥¼ÓÎÒºÃÓÑ£¬±¸×¢Á¿»¯¡£
 
-![å…¬ä¼—å·äºŒç»´ç ](https://camo.githubusercontent.com/6fad032c27b30b68a9d942ae77f8cc73933b95cea58e684657d31b94a300afd5/68747470733a2f2f67697465652e636f6d2f73686964656e676775692f6173736574732f7261772f6d61737465722f755069632f6d702d71722e706e67)
+![¹«ÖÚºÅ¶şÎ¬Âë](https://camo.githubusercontent.com/6fad032c27b30b68a9d942ae77f8cc73933b95cea58e684657d31b94a300afd5/68747470733a2f2f67697465652e636f6d2f73686964656e676775692f6173736574732f7261772f6d61737465722f755069632f6d702d71722e706e67)
 
-è‹¥äºŒç»´ç å›  Github ç½‘ç»œæ— æ³•æ‰“å¼€ï¼Œè¯·ç‚¹å‡»[å…¬ä¼—å·äºŒç»´ç ](https://camo.githubusercontent.com/6fad032c27b30b68a9d942ae77f8cc73933b95cea58e684657d31b94a300afd5/68747470733a2f2f67697465652e636f6d2f73686964656e676775692f6173736574732f7261772f6d61737465722f755069632f6d702d71722e706e67)ç›´æ¥æ‰“å¼€å›¾ç‰‡ã€‚
+Èô¶şÎ¬ÂëÒò Github ÍøÂçÎŞ·¨´ò¿ª£¬Çëµã»÷[¹«ÖÚºÅ¶şÎ¬Âë](https://camo.githubusercontent.com/6fad032c27b30b68a9d942ae77f8cc73933b95cea58e684657d31b94a300afd5/68747470733a2f2f67697465652e636f6d2f73686964656e676775692f6173736574732f7261772f6d61737465722f755069632f6d702d71722e706e67)Ö±½Ó´ò¿ªÍ¼Æ¬¡£
 
 ### Author
 
-> Blog [@shidenggui](https://shidenggui.com) Â· Weibo [@é£Ÿç¯é¬¼](https://www.weibo.com/u/1651274491) Â· Twitter [@shidenggui](https://twitter.com/shidenggui)
+> Blog [@shidenggui](https://shidenggui.com) ¡¤ Weibo [@Ê³µÆ¹í](https://www.weibo.com/u/1651274491) ¡¤ Twitter [@shidenggui](https://twitter.com/shidenggui)
 
-### ç›¸å…³
+### Ïà¹Ø
 
-* [easyquotation å®æ—¶è·å–å…¨å¸‚åœºè‚¡ç¥¨è¡Œæƒ…](https://github.com/shidenggui/easyquotation)
-* [easyquant ç®€å•çš„é‡åŒ–æ¡†æ¶](https://github.com/shidenggui/easyqutant)
+* [easyquotation ÊµÊ±»ñÈ¡È«ÊĞ³¡¹ÉÆ±ĞĞÇé](https://github.com/shidenggui/easyquotation)
+* [easyquant ¼òµ¥µÄÁ¿»¯¿ò¼Ü](https://github.com/shidenggui/easyqutant)
 
 
-### æ¨¡æ‹Ÿäº¤æ˜“
+### Ä£Äâ½»Ò×
 
-* é›ªçƒç»„åˆ by @[haogefeifei](https://github.com/haogefeifei)ï¼ˆ[è¯´æ˜](doc/xueqiu.md)ï¼‰
+* Ñ©Çò×éºÏ by @[haogefeifei](https://github.com/haogefeifei)£¨[ËµÃ÷](doc/xueqiu.md)£©
 
-### ä½¿ç”¨æ–‡æ¡£
+### Ê¹ÓÃÎÄµµ
 
-[ä¸­æ–‡æ–‡æ¡£](https://easytrader.readthedocs.io/)
+[ÖĞÎÄÎÄµµ](https://easytrader.readthedocs.io/)
