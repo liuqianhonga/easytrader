@@ -113,16 +113,18 @@ class Copy(BaseStrategy):
                     captcha_num = "".join(captcha_num.split())
                     logger.info("captcha result-->" + captcha_num)
                     if len(captcha_num) == 4:
-                        editor = self._trader.app.top_window().window(
+                        input_box = self._trader.app.top_window().window(
                             control_id=0x964, class_name="Edit"
                         )
-                        self._trader.type_edit_control_keys(
-                            editor,
+                        input_box.set_focus()
+                        input_box.type_keys("^a{BACKSPACE}" + captcha_num, set_foreground=False)  # 全选清除后输入
+                        input_box.set_text(
                             captcha_num
                         )  # 模拟输入验证码
-
-                        self._trader.app.top_window().set_focus()
-                        pywinauto.keyboard.SendKeys("{ENTER}")  # 模拟发送enter，点击确定
+                        self._trader.wait(0.1)  # 增加短时等待确保输入生效
+                        # self._trader.app.top_window().set_focus()
+                        pywinauto.keyboard.send_keys("{ENTER}")  # 模拟发送enter，点击确定
+                        self._trader.wait(0.1)
                         try:
                             logger.info(
                                 self._trader.app.top_window()
