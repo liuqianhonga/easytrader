@@ -560,6 +560,7 @@ class ClientTrader(IClientTrader):
     def refresh(self):
         self.refresh_strategy.set_trader(self)
         self.refresh_strategy.refresh()
+        self.wait(0.2)
 
     @perf_clock
     def _handle_pop_dialogs(self, handler_class=pop_dialog_handler.PopDialogHandler):
