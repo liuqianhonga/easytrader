@@ -517,13 +517,13 @@ class ClientTrader(IClientTrader):
             item.collapse()
 
     @perf_clock
-    def _switch_left_menus(self, path, sleep=0.8):
+    def _switch_left_menus(self, path, sleep=0.2):
         self.close_pop_dialog()
         self._get_left_menus_handle().get_item(path).select()
         self._app.top_window().type_keys('{F5}')
         self.wait(sleep)
 
-    def _switch_left_menus_by_shortcut(self, shortcut, sleep=0.8):
+    def _switch_left_menus_by_shortcut(self, shortcut, sleep=0.5):
         self.close_pop_dialog()
         self._app.top_window().type_keys(shortcut)
         self.wait(sleep)
@@ -560,7 +560,7 @@ class ClientTrader(IClientTrader):
     def refresh(self):
         self.refresh_strategy.set_trader(self)
         self.refresh_strategy.refresh()
-        self.wait(0.2)
+        self.wait(0.1)
 
     @perf_clock
     def _handle_pop_dialogs(self, handler_class=pop_dialog_handler.PopDialogHandler):
