@@ -96,7 +96,7 @@ class Copy(BaseStrategy):
 
     def _get_clipboard_data(self) -> str:
         while True:
-            is_captcha_window_exist = self._trader.app.top_window().window(class_name="Static", title_re="验证码").exists(timeout=1)
+            is_captcha_window_exist = self._trader.app.top_window().window(class_name="Static", title_re="验证码").exists()
 
             if not is_captcha_window_exist:
                 break
